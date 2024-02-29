@@ -1,0 +1,54 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    background-image: url('./skyline.jpg'); /* Replace 'path/to/your/image.jpg' with the path to your image */
+    background-size: cover; /* Adjust background size as needed */
+    background-position: center;
+  }
+  .container{
+    padding-top:30px;
+    background-color: rgba(60, 123, 160, 0.63);
+    font-family: arial;
+    color:white;
+  }
+  .header{
+    padding-bottom:50;
+  }
+  .information{
+    padding-bottom: 30px;
+  }
+  th,td{
+    padding: 10px;
+    color:white;
+    font-family:arial;
+  }
