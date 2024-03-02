@@ -50,3 +50,18 @@ nav {
     margin-right:50%;
     padding-left:20px;
   }
+  #containerb{
+    font-family: arial;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+  }
+  .newSubDiv img{
+    width: 200px;
+    height:auto;
+  }
+  .newsubDiv{
+    max-width: 300px;
+    text-align: center;
+  }
